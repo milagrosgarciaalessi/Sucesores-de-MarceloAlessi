@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<!--Contenido de la página en Español. Es el lenguaje Puede ser "en"-->
+
+<head>
+    <!--cabeza-->
+    <meta charset="UTF-8">
+    <!--Para los caracteres en español-->
+    <meta http-equiv="X-UA-Compatible content=" IE=edge>
+    <!--Compatibilidad del nav. 
+            donde se consulta la pag. y content es IE Internet Explore = al navegador 
+            estandar a utilizar-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Viewport
+        nos permite indicar cómo se verá un proyecto web en los dispositivos móviles-->
+    <!--width=device-width establece el ancho de la ventana gráfica al ancho del 
+        dispositivo. initial-scale=1 establece el nivel de zoom inicial cuando el usuario
+         visita la página.-->
+    <title>Suc.de Marcelo Alessi-Contacto</title>
+    <link rel="shortcut icon" href="../assets/Logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="../assets/grid.css">
+</head>
+
+<body>
+    <header id="arriba" class="grid2 gradientes">
+        <picture class="img_logo">
+            <img src="../assets/Logo.jpg" class="img_logo" alt="Logo MA">
+        </picture>
+        <nav>
+            <ul class="menu">
+                <li>
+                    <a href="../index.html" class="menu__link">Home</a>
+                </li>
+                <li>
+                    <a href="./quienes somos.html" class="menu__link">Quienes Somos</a>
+                </li>
+                <li>
+                    <a href="./maquinariasyrepuestos.html" class="menu__link">Maquinarias y Repuestos</a>
+                </li>
+                <li>
+                    <a href="./cotizaciones.html" class="menu__link">Cotizaciones</a>
+                </li>
+                <li>
+                    <a href="./contacto.html"  class="menu__link1">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+        <p class="ir_abajo">
+            <a href="#abajo" class="ir_header"> Ir abajo </a>
+        </p>
+    </header>
+
+    <main>
+    <h1 class="tituloh1">Contacto</h1>
+    <h2 class="h2_contacto1">Ponete en contacto con Nosotros</h2>
+    <table class="table">
+        <tr>
+            <th class="table_nombre">Razón Social</th>
+            <th class="table_nombre">Localidad</th>
+            <th class="table_nombre" >Direccion</th>
+            <th class="table_nombre">Telefono</th>
+        </tr>
+        <t1>
+            <td class="table_nombre1">Sucesores de Marcelo Alessi</td>
+            <td class="table_nombre1">Tandil(C.P 7000)</td>
+            <td class="table_nombre1">Italia y Colectora Pugliese</td>
+            <td class="table_nombre1">2494308426</td>
+        </t1>
+    </table>
+
+    <h2 class="h2_contacto">¿Necesitas más información?</h2>
+
+    <form action="">
+        <fieldset class="formulario_cot">
+
+            <legend class="titulo_fcot"> Completa tus datos, nosotros te llamamos </legend>
+            <label for="Nombre" class="titulo2_fcot">Nombre</label>
+            <input type]="text" name="Nombre" id="Nombre" placeholder="Ingresa tu Nombre" required class="titulo3_fcot">
+            
+            <!--usado el "br" solo para que se vea mejor, al incorporar css lo quito-->
+            <label for="Apellido"class="titulo2_fcot" >Apellido</label>
+            <input type]="text" name="Apellido" id="Apellido" placeholder="Ingresa tu Apellido" required class="titulo3_fcot">
+            
+            <label for="Localidad"class="titulo2_fcot" >Localidad</label>
+            <input type]="text" name="Localidad" id="Localidad" placeholder="Ingresa tu Localidad" required class="titulo3_fcot">
+          
+            <label for="correo" class="titulo2_fcot">Correo electrónico</label>
+            <input type="email" name="correo" id="correo" placeholder="Ingresa tu Correo" required class="titulo3_fcot">
+            
+            <label for="num"class="titulo2_fcot">Numero de Telefono</label>
+            <input type]="number" name="Num" id="num" placeholder="Ingresa tu Numero" required class="titulo3_fcot">
+            
+            <label for="Consulta"class="titulo2_fcot"> Consulta </label>
+            
+            <textarea CLASS="cuadro"name="" ID="consulta" cols="40" rows="10" maxlength="200" minlength="1"></textarea>
+            
+            <input type="submit" value="Enviar la consulta" class="boton1">
+        </fieldset>
+    </form>
+</main>
+    <footer id="abajo" class="grid">
+        <picture  class="logo_footer">
+            <img src="../assets/Logo.jpg"  class="logo_footer" alt="Logo MA">
+        </picture>
+        <ul class="menu2">
+            <li>
+                <a href="../index.html" class="menu__link2">Home</a>
+            </li>
+            <li>
+                <a href="./quienes somos.html"class="menu__link2">Quienes Somos</a>
+            </li>
+            <li>
+                <a href="./maquinariasyrepuestos.html" class="menu__link2">Maquinarias y Repuestos</a>
+            </li>
+            <li>
+                <a href="./cotizaciones.html"class="menu__link2">Cotizaciones</a>
+            </li>
+            <li>
+                <a href="./contacto.html"class="menu__link2">Contacto</a>
+            </li>
+        </ul>
+
+        <p class="ir_footer"> 
+            <a href="#arriba"class="ir_footer"> Ir arriba </a> 
+        </p>
+        <p class="copyright">
+            Copyright 2022: Todos los derechos reservados
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
+
+</html>

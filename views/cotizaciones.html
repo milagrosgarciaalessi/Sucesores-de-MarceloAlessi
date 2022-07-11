@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<!--Contenido de la página en Español. Es el lenguaje Puede ser "en"-->
+
+<head>
+    <!--cabeza-->
+    <meta charset="UTF-8">
+    <!--Para los caracteres en español-->
+    <meta http-equiv="X-UA-Compatible content=" IE=edge>
+    <!--Compatibilidad del nav. 
+            donde se consulta la pag. y content es IE Internet Explore = al navegador 
+            estandar a utilizar-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Viewport
+        nos permite indicar cómo se verá un proyecto web en los dispositivos móviles-->
+    <!--width=device-width establece el ancho de la ventana gráfica al ancho del 
+        dispositivo. initial-scale=1 establece el nivel de zoom inicial cuando el usuario
+         visita la página.-->
+    <title>Suc.de Marcelo Alessi-Cotizaciones</title>
+    <link rel="shortcut icon" href="../assets/Logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="../assets/grid.css">
+</head>
+
+<body>
+    <header id="arriba" class="grid2 gradientes">
+        <picture class="img_logo">
+            <img src="../assets/Logo.jpg" class="img_logo" alt="Logo MA">
+        </picture>
+        <nav>
+            <ul class="menu">
+                <li>
+                    <a href="../index.html" class="menu__link">Home</a>
+                </li>
+                <li>
+                    <a href="./quienes somos.html" class="menu__link">Quienes Somos</a>
+                </li>
+                <li>
+                    <a href="./maquinariasyrepuestos.html" class="menu__link">Maquinarias y Repuestos</a>
+                </li>
+                <li>
+                    <a href="./cotizaciones.html" class="menu__link">Cotizaciones</a>
+                </li>
+                <li>
+                    <a href="./contacto.html" class="menu__link1">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+        <p  class="ir_abajo">
+            <a href="#abajo" class="ir_header"> Ir abajo </a>
+        </p>
+    </header>
+    <main>
+        <h1 class="tituloh1">Consultas por Cotizaciones</h1>
+        <form class="form" action="">
+            <fieldset class="formulario_cot">
+                <legend class="titulo_fcot">Datos personales</legend>
+                <label for="Nombre" class="titulo2_fcot">Nombre</label>
+                <input type]="text" name="Nombre" id="Nombre" placeholder="Ingresa tu Nombre" class="titulo3_fcot"
+                    required>
+
+                <label for="Apellido" class="titulo2_fcot">Apellido</label>
+                <input type]="text" name="Apellido" id="Apellido" placeholder="Ingresa tu Apellido" required
+                    class="titulo3_fcot">
+
+                <label for="Localidad" class="titulo2_fcot">Localidad</label>
+                <input type]="text" name="Localidad" id="Localidad" placeholder="Ingresa tu Localidad" required
+                    class="titulo3_fcot">
+
+                <label for="correo" class="titulo2_fcot">Correo electrónico</label>
+                <input type="email" name="correo" id="correo" placeholder="Ingresa tu Correo" required
+                    class="titulo3_fcot">
+
+                <label for="num" class="titulo2_fcot">Numero de Telefono</label>
+                <input type ]="number" name="Num" id="num" placeholder="Ingresa tu Numero" required
+                    class="titulo3_fcot">
+
+                <div class="titulo4_fcot"> Acerca de:
+
+                    <input type="checkbox" name="cbox1" clas=""> Maquinarias
+                    <input type="checkbox" name="cbox1"> Repuestos
+                </div>
+                <label for="Consulta de cotizacion" class="titulo2_fcot"> Consulta de cotizacion</label>
+
+                <textarea class="cuadro" name="" ID="consulta de cotizacion" cols="50" rows="15" maxlength="200"
+                    minlength="1"></textarea>
+
+                <div>
+                    <input type="submit" value="Enviar la consulta" class="boton1">
+                    <input type="reset" value="Limpiar la consulta" class="boton1">
+                </div>
+            </fieldset>
+        </form>
+    </main>
+
+    <footer id="abajo" class="grid">
+        <picture class="logo_footer">
+            <img src="../assets/Logo.jpg" class="logo_footer" alt="Logo MA">
+        </picture>
+
+        <ul class="menu2">
+            <li>
+                <a href="../index.html" class="menu__link2">Home</a>
+            </li>
+            <li>
+                <a href="./quienes somos.html" class="menu__link2">Quienes Somos</a>
+            </li>
+            <li>
+                <a href="./maquinariasyrepuestos.html" class="menu__link2">Maquinarias y Repuestos</a>
+            </li>
+            <li>
+                <a href="./cotizaciones.html" class="menu__link2">Cotizaciones</a>
+            </li>
+            <li>
+                <a href="./contacto.html" class="menu__link2">Contacto</a>
+            </li>
+        </ul>
+        <p class="ir_footer foot_cot">
+            <a href="#arriba" class="ir_footer"> Ir arriba </a>
+        </p>
+        <p class="copyright">
+            Copyright 2022: Todos los derechos reservados
+        </p>
+
+    </footer>
+</body>
+
+
+</html>
+
+</html>
