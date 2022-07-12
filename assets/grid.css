@@ -17,7 +17,7 @@ header {
 }
 
 .gradientes {
-    background-image: linear-gradient(#BF2527, white);
+    background-image: linear-gradient(#BF2527, #f7e7e7);
 }
 
 .img_logo {
@@ -55,7 +55,7 @@ nav {
 .menu__link {
     text-decoration: none;
     /*Para sacar las lineas de los link*/
-    color: #FFFFFF;
+    color: #fdf2f2;
     text-transform: uppercase;
 
 }
@@ -449,11 +449,14 @@ main {
 }
 
 /*FOOTER*/
+.gradientes1 {
+    background-image: linear-gradient(#f7e7e7, #BF2527);
+}
 
 footer {
 
     color: #FFFFFF;
-    background-color: #BF2527;
+    /*  background-color: #BF2527;*/
     margin-top: 50px;
     list-style: none;
     text-decoration: none;
@@ -466,14 +469,16 @@ footer {
     margin-left: 20px;
     margin-top: 10px;
     display: flex;
-    background-color: #BF2527;
+    background-color: none;
+    /* #BF2527;*/
     grid-area: logo;
 }
 
 .menu2 {
     list-style: none;
     justify-content: space-evenly;
-    background-color: #BF2527;
+    background-color: none;
+    /* #BF2527;*/
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -489,7 +494,8 @@ footer {
     display: flex;
     font-size: 1rem;
     grid-area: menu;
-    background-color: #BF2527;
+    background-color: none;
+    /* #BF2527;*/
 
 
 }
@@ -501,7 +507,8 @@ footer {
     font-size: 1rem;
     font-weight: bold;
     font-family: 'Times New Roman';
-    background-color: #BF2527;
+    background-color: none;
+    /* #BF2527;*/
     display: flex;
     justify-content: flex-end;
     flex-direction: column;
@@ -518,7 +525,8 @@ footer {
     justify-content: center;
     text-align: center;
     font-size: 1rem;
-    background-color: #BF2527;
+    background-color: none;
+    /* #BF2527;*/
     margin-bottom: 20px;
     grid-area: copyright;
 }
