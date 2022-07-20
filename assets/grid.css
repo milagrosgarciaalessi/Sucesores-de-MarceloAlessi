@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #fbf8f8;
+    background-color: #f7e7e7;
     font-family: 'Times New Roman';
 }
 
@@ -17,14 +17,14 @@ header {
 }
 
 .gradientes {
-    background-image: linear-gradient(#BF2527, #f7e7e7);
+    background-image: linear-gradient(#BF2527, #d8b1b1, #BF2527);
 }
 
 .img_logo {
     width: 10vw;
     background-color: transparent;
     display: flex;
-    margin-left: 20px;
+    margin-left: 30px;
     margin-top: 10px;
     grid-area: logonav;
 }
@@ -33,7 +33,7 @@ nav {
 
     background-color: none;
     display: flex;
-    flex-wrap: wrap;
+    /*flex-wrap: wrap;*/
 
 
 }
@@ -43,11 +43,10 @@ nav {
     list-style: none;
     justify-content: space-around;
     align-items: center;
-    background-color: none;
     font-size: 1rem;
     width: 60vw;
     margin-top: 10px;
-    margin-left: 100px;
+    margin-left: 70px;
     flex-wrap: wrap;
     grid-area: menu1;
 }
@@ -68,6 +67,17 @@ nav {
     /*mayuscula*/
 }
 
+/*
+.nav-item{
+
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        height: -11px;
+        margin-left: 33px;
+        margin-top: -142px;
+    }
+*/
 
 .ir_header {
     color: #0a0a0a;
@@ -127,7 +137,7 @@ nav {
 }
 
 main {
-    background-color: #fbf8f8;
+    background-color: #f7e7e7;
 
 }
 
@@ -141,6 +151,13 @@ main {
     border: solid 3px rgb(158, 149, 149);
     justify-content: center;
     background-color: #BF2527;
+
+}
+
+.button_nav {
+    justify-content: center;
+    display: flex;
+
 
 }
 
@@ -196,14 +213,14 @@ main {
 }
 
 .aside_img {
-    margin-top: 1%;
-    margin-left: 35%;
-    width: 35vw;
-    align-items: center;
-    display: flex;
+    /* margin-top: 1%;*/
+    margin-left: 10%;
+    width: 80vw;
+
+    /*display: flex;*/
 }
 
-.aside_img:hover {
+.img_index:hover {
     transform: skew(3deg, 5deg);
     /*Use Transformacion y Transicion*/
 }
@@ -351,40 +368,39 @@ main {
     display: flex;
     flex-direction: column;
     margin-top: 30px;
-    background-color: #D8BF97;
+    background-image: linear-gradient(#212020, #3b3a3a);
 
 }
 
 .titulo_fcot {
-    color: black;
+    color: #080808;
     font-size: 30px;
     text-align: center;
-    background-color: #B27A50;
+    background-color: #979593;
 }
 
 .titulo2_fcot {
-    color: black;
+    color: #fcfbfb;
     font-size: 20px;
-    margin-left: 30px;
-    margin-bottom: 10px;
-    margin-top: 10px;
+    margin-left: 10px;
+    /* margin-bottom: 10px;
+    margin-top: 10px;*/
 }
 
 .titulo3_fcot {
-    color: #FFFFFF;
+    color: #af8a8a;
     font-size: 20px;
-    margin-right: 30px;
-    margin-left: 30px;
-    margin-bottom: 10px;
-    background-color: #B27A50;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #979593;
     text-align: center;
 }
 
 .titulo4_fcot {
-    font-size: 25px;
-    color: black;
-    margin-left: 30px;
-    margin-right: 30px;
+    font-size: 20px;
+    color: #fcfbfb;
+    margin-left: 10px;
+    margin-right: 20px;
     margin-bottom: 10px;
     margin-top: 10px;
 
@@ -393,7 +409,7 @@ main {
 .boton1 {
     display: flex;
     justify-content: center;
-    background-color: #47525E;
+    background-color: #979593;
     cursor: pointer;
     margin-left: 40%;
     border: 1px solid rgb(10, 10, 10);
@@ -402,13 +418,19 @@ main {
     margin-bottom: 10px;
 }
 
+.boton2 {
+    background-color: #979593;
+    margin-bottom: 10px;
+}
+
 .cuadro {
-    margin-bottom: 15px;
+    /* margin-bottom: 15px;
     margin-left: 30px;
     width: 28vw;
     height: 25vw;
-    color: #FFFFFF;
-    background-color: #B27A50;
+    color: #FFFFFF;*/
+    background-color: #979593;
+
 }
 
 .foot_cot {
@@ -416,46 +438,54 @@ main {
 }
 
 /*CONTACTO*/
+
 .table {
+
     display: flex;
     margin-top: 20px;
     justify-content: center;
-
+    margin-right: 30px;
 
 }
 
-.table_nombre {
-    font-size: 2rem;
-    border: solid 1px;
 
+.table_nombre {
+    font-size: 1.5rem;
+    border: solid 1px;
+    text-align: center;
 }
 
 .table_nombre1 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     border: solid 1px;
 
 }
 
 .h2_contacto {
     margin-top: 3%;
-    margin-left: 2%;
-    font-size: 3rem;
+    /*margin-left: 2%;*/
+    font-size: 2rem;
 }
 
 .h2_contacto1 {
     text-align: center;
-    font-size: 3rem;
+    font-size: 2rem;
     margin-top: 20px;
+}
+
+.f_cont {
+    margin: 20px;
 }
 
 /*FOOTER*/
 .gradientes1 {
-    background-image: linear-gradient(#f7e7e7, #BF2527);
+    background-image: linear-gradient(#BF2527, #d8b1b1, #BF2527);
+
 }
 
 footer {
 
-    color: #FFFFFF;
+    color: #f7e7e7;
     /*  background-color: #BF2527;*/
     margin-top: 50px;
     list-style: none;
@@ -557,7 +587,7 @@ footer {
 @media screen and (max-width:1241px) {
     .menu {
         align-content: space-around;
-        width: 57vw;
+        width: 59vw;
         margin-left: 18px;
         flex-wrap: wrap;
     }
@@ -593,7 +623,7 @@ footer {
     .sectionindex {
         width: 65vw;
         justify-content: center;
-        height: 50vw
+        height: 50vw;
     }
 
     .logo_footer {
@@ -622,12 +652,58 @@ footer {
     .copyright {
         margin-left: 136px;
     }
+
+    .ir_abajo {
+        margin-left: -70px;
+    }
+
+    /*QUIENES SOMOS*/
+
+    .asideqs_h2 {
+        width: 2vw;
+    }
 }
 
-@media screen and (max-width :1105px) {
+@media screen and (max-width :960px) {
     .menu {
         font-size: 0.8rem;
     }
+
+    /*QUIENES SOMOS*/
+
+    .asideqs_h2 {
+        width: 1vw;
+        margin-left: 3px;
+    }
+}
+
+@media screen and (max-width :900px) {
+    /*QUIENES SOMOS*/
+
+    .asideqs_h2 {
+        width: 1vw;
+        margin-left: 3px;
+    }
+
+    .bot_quie {
+        margin-left: -27px;
+    }
+
+    .p_quienessomos {
+        font-size: 1rem;
+    }
+}
+
+
+@media screen and (max-width :888px) {
+    .menu {
+        font-size: 0.8rem;
+    }
+
+    .ir_abajo {
+        margin-left: -80px;
+    }
+
 }
 
 @media screen and (max-width :882px) {
@@ -658,11 +734,54 @@ footer {
 
     .ir_header {
         width: 4vw;
+        font-size: 0.75rem;
     }
 
     .sectionindex {
         width: 73vw;
         height: 72vw;
+    }
+
+    /*QUIENES SOMOS*/
+    .bot_quie {
+        margin-left: -66px;
+    }
+
+    .asideqs_h2 {
+        width: -20vw;
+        margin-left: -70px;
+    }
+}
+
+@media screen and (max-width :767px) {
+    .ir_abajo {
+        flex-direction: column-reverse;
+        width: 7vw;
+        display: flex;
+        margin-left: 153px;
+    }
+
+
+    .ir_header {
+        width: 42px;
+        height: 26px;
+        flex-direction: column-reverse;
+        display: flex;
+        justify-content: center;
+        margin-top: 12px;
+        margin-left: 81px;
+    }
+
+    .button_nav {
+        justify-content: center;
+        display: flex;
+        width: 58vw;
+        flex-direction: row-reverse;
+
+    }
+
+    .menu {
+        margin-top: -106px;
     }
 }
 
@@ -673,8 +792,8 @@ footer {
     }
 
     .ir_header {
-        width: 8vw;
-
+        width: -4vw;
+        margin-left: 43px;
     }
 }
 
@@ -684,13 +803,23 @@ footer {
         font-size: 0.60rem;
     }
 
+    /*
     .ir_header {
         width: 9vw;
-    }
+    }*/
 
     .p_index {
         height: 36vw;
         line-height: 1.2;
+    }
+
+    /*QUIENES SOMOS*/
+    .bot_quie {
+        margin-left: -94px;
+    }
+
+    .p_quienessomos {
+        margin-top: 54px;
     }
 }
 
@@ -701,8 +830,7 @@ footer {
     }
 
     .ir_header {
-        width: 9vw;
-        font-size: 0.6rem;
+        margin-left: 33px;
     }
 
     .sectionindex {
@@ -711,6 +839,29 @@ footer {
 
     .ir_footer {
         font-size: 0.6rem;
+    }
+
+    .ir_abajo {
+        margin-left: 113px;
+    }
+
+    /*QUIENES SOMOS*/
+    .bot_quie {
+        margin-left: -94px;
+    }
+
+    .asideqs_h2 {
+        width: -20vw;
+        margin-left: -112px;
+    }
+
+    .section_quienessomos {
+
+        margin-left: -54px;
+    }
+
+    .ir_footer {
+        margin-left: -8px;
     }
 
     /*Maquinas y Repuestos*/
@@ -733,11 +884,15 @@ footer {
 
 @media screen and (max-width : 589px) {
     .menu {
-        flex-direction: column;
-        align-content: space-around;
-        margin-top: 33px;
+        /* flex-direction: column;
+        align-content: space-around;*/
+        margin-top: -102px;
         text-align: center;
-        font-size: 0.8rem;
+        font-size: 0.7rem;
+    }
+
+    .ir_header {
+        margin-left: 5px;
     }
 
     .p_index {
@@ -772,11 +927,20 @@ footer {
 
     .p_footer {
         width: 87px;
+
     }
 
     .copyright {
         font-size: 0.7rem;
         margin-bottom: 4px;
+    }
+
+    /*QUIENES SOMOS*/
+    .ir_footer {
+        margin-left: -20px;
+    }
+    .p_quienessomos{
+        margin-top: 80px;
     }
 
     /*Maquinas y Repuestos*/
@@ -801,16 +965,21 @@ footer {
     }
 }
 
+@media screen and (max-width : 532px) {
+    .ir_header {
+        margin-left: -25px;
+    }
+}
+
 @media screen and (max-width : 513px) {
 
     /*and (min-width : 301px) */
     .menu {
-        width: 44vw;
-        height: 17vw;
-        margin-left: 1px;
-
+        width: 31vw;
+        height: 37vw;
+        margin-left: 50px;
+        margin-top: -105px;
     }
-
 
     .p_index {
         height: 27vw;
@@ -823,10 +992,10 @@ footer {
         width: 78px;
     }
 
-
+    /*
     .ir_header {
         width: 14vw;
-    }
+    }*/
 
 
 }
@@ -834,6 +1003,23 @@ footer {
 @media screen and (max-width:499px) {
     .p_index {
         height: 33vw;
+    }
+
+    .ir_header {
+
+        width: -2vw;
+    }
+
+    .ir_abajo {
+        width: 1vw;
+    }
+
+    .menu {
+        width: 31vw;
+        height: 37vw;
+        margin-left: 66px;
+        margin-top: -103px;
+        font-size: 0.75rem;
     }
 
     /*Maquinas y Repuestos*/
@@ -1065,8 +1251,8 @@ footer {
 }
 
 @media screen and (max-width:271px) {
-    /*terminar este y hacer desde el mas grande que hice hacia arriba*/
 
+    /*
     .menu {
         flex-direction: column;
         display: flex;
@@ -1074,7 +1260,7 @@ footer {
         flex-wrap: nowrap;
         width: 7vw;
         margin-left: 23px;
-    }
+    }*/
 
     .img_logo {
         margin-top: 3px;

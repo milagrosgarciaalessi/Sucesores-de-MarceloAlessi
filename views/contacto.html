@@ -17,17 +17,51 @@
         dispositivo. initial-scale=1 establece el nivel de zoom inicial cuando el usuario
          visita la página.-->
     <title>Suc.de Marcelo Alessi-Contacto</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
     <link rel="shortcut icon" href="../assets/Logo.jpg" type="image/x-icon">
     <link rel="stylesheet" href="../assets/grid.css">
 </head>
 
 <body>
     <header id="arriba" class="grid2 gradientes">
-        <picture class="img_logo">
+       <!-- <picture class="img_logo">
             <img src="../assets/Logo.jpg" class="img_logo" alt="Logo MA">
-        </picture>
+        </picture>-->
         <nav>
-            <ul class="menu">
+            <nav class="navbar navbar-expand-lg navbar-expand-md">
+                <div class="container">
+                    <a class="navbar-brand img_logo">
+                      <img src="../assets/Logo.jpg" alt="Logo MA" width="40" height="30">
+                    </a>
+                  </div>
+                <div class="container-fluid button_nav">
+                  <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon "></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav menu">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link btn btn-outline me-2" href="./quienes somos.html">Quienes Somos</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link btn btn-outline me-2 " href="./maquinariasyrepuestos.html">Maquinarias y Repuestos</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link btn btn-outline me-2 "href="./cotizaciones.html">Cotizaciones</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link btn btn-outline me-2 " href="./contacto.html">Contacto</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+         <!--   <ul class="menu">
                 <li>
                     <a href="../index.html" class="menu__link">Home</a>
                 </li>
@@ -41,9 +75,9 @@
                     <a href="./cotizaciones.html" class="menu__link">Cotizaciones</a>
                 </li>
                 <li>
-                    <a href="./contacto.html"  class="menu__link1">Contacto</a>
+                    <a href="./contacto.html" class="menu__link1">Contacto</a>
                 </li>
-            </ul>
+            </ul>-->
         </nav>
         <p class="ir_abajo">
             <a href="#abajo" class="ir_header"> Ir abajo </a>
@@ -51,84 +85,93 @@
     </header>
 
     <main>
-    <h1 class="tituloh1">Contacto</h1>
-    <h2 class="h2_contacto1">Ponete en contacto con Nosotros</h2>
-    <table class="table">
-        <tr>
-            <th class="table_nombre">Razón Social</th>
-            <th class="table_nombre">Localidad</th>
-            <th class="table_nombre" >Direccion</th>
-            <th class="table_nombre">Telefono</th>
-        </tr>
-        <t1>
-            <td class="table_nombre1">Sucesores de Marcelo Alessi</td>
-            <td class="table_nombre1">Tandil(C.P 7000)</td>
-            <td class="table_nombre1">Italia y Colectora Pugliese</td>
-            <td class="table_nombre1">2494308426</td>
-        </t1>
-    </table>
+        <h1 class="tituloh1">Contacto</h1>
+        <h2 class="h2_contacto1">Ponete en contacto con Nosotros</h2>
+        <div class="table-responsive-md">
+            <table class="table table-dark align-middle table-sm">
+                <tr>
+                    <th class="table_nombre text-center align-bottom">Razón Social</th>
+                    <th class="table_nombre text-center align-bottom">Localidad</th>
+                    <th class="table_nombre text-center align-bottom">Direccion</th>
+                    <th class="table_nombre text-center align-bottom">Telefono</th>
+                </tr>
+                <t1>
+                    <td class="table_nombre1 text-center table-light align-top">Suc. de Marcelo Alessi</td>
+                    <td class="table_nombre1 text-center table-light align-top">Tandil</td>
+                    <td class="table_nombre1 text-center table-light align-top">Italia y Colectora Pugliese</td>
+                    <td class="table_nombre1 text-center table-light align-top">2494308426</td>
+                </t1>
 
-    <h2 class="h2_contacto">¿Necesitas más información?</h2>
+            </table>
+        </div>
+        <h2 class="h2_contacto text-center">¿Necesitas más información?</h2>
 
-    <form action="">
-        <fieldset class="formulario_cot">
+        <form class="f_cont" action="">
+            <fieldset class="formulario_cot">
 
-            <legend class="titulo_fcot"> Completa tus datos, nosotros te llamamos </legend>
-            <label for="Nombre" class="titulo2_fcot">Nombre</label>
-            <input type]="text" name="Nombre" id="Nombre" placeholder="Ingresa tu Nombre" required class="titulo3_fcot">
-            
-            <!--usado el "br" solo para que se vea mejor, al incorporar css lo quito-->
-            <label for="Apellido"class="titulo2_fcot" >Apellido</label>
-            <input type]="text" name="Apellido" id="Apellido" placeholder="Ingresa tu Apellido" required class="titulo3_fcot">
-            
-            <label for="Localidad"class="titulo2_fcot" >Localidad</label>
-            <input type]="text" name="Localidad" id="Localidad" placeholder="Ingresa tu Localidad" required class="titulo3_fcot">
-          
-            <label for="correo" class="titulo2_fcot">Correo electrónico</label>
-            <input type="email" name="correo" id="correo" placeholder="Ingresa tu Correo" required class="titulo3_fcot">
-            
-            <label for="num"class="titulo2_fcot">Numero de Telefono</label>
-            <input type]="number" name="Num" id="num" placeholder="Ingresa tu Numero" required class="titulo3_fcot">
-            
-            <label for="Consulta"class="titulo2_fcot"> Consulta </label>
-            
-            <textarea CLASS="cuadro"name="" ID="consulta" cols="40" rows="10" maxlength="200" minlength="1"></textarea>
-            
-            <input type="submit" value="Enviar la consulta" class="boton1">
-        </fieldset>
-    </form>
-</main>
+                <legend class="titulo_fcot"> Completa tus datos, nosotros te llamamos </legend>
+                <label for="Nombre" class="titulo2_fcot">Nombre</label>
+                <input type]="text" name="Nombre" id="Nombre" placeholder="Ingresa tu Nombre" required
+                    class="titulo3_fcot">
+
+                <!--usado el "br" solo para que se vea mejor, al incorporar css lo quito-->
+                <label for="Apellido" class="titulo2_fcot">Apellido</label>
+                <input type]="text" name="Apellido" id="Apellido" placeholder="Ingresa tu Apellido" required
+                    class="titulo3_fcot">
+
+                <label for="Localidad" class="titulo2_fcot">Localidad</label>
+                <input type]="text" name="Localidad" id="Localidad" placeholder="Ingresa tu Localidad" required
+                    class="titulo3_fcot">
+
+                <label for="correo" class="titulo2_fcot">Correo electrónico</label>
+                <input type="email" name="correo" id="correo" placeholder="Ingresa tu Correo" required
+                    class="titulo3_fcot">
+
+                <label for="num" class="titulo2_fcot">Numero de Telefono</label>
+                <input type]="number" name="Num" id="num" placeholder="Ingresa tu Numero" required class="titulo3_fcot">
+
+                <div class="mb-3">
+                    <label for="Textarea" class="form-label titulo2_fcot">Consulta</label>
+                    <textarea class="form-control cuadro border border-light" id="Textarea" rows="3"></textarea>
+                </div>
+
+                <input class="btn btn-outline-light boton2" type="submit" value="Enviar Consulta">
+            </fieldset>
+        </form>
+    </main>
     <footer id="abajo" class="grid gradientes1">
-        <picture  class="logo_footer">
-            <img src="../assets/Logo.jpg"  class="logo_footer" alt="Logo MA">
+        <picture class="logo_footer">
+            <img src="../assets/Logo.jpg" class="logo_footer" alt="Logo MA">
         </picture>
         <ul class="menu2">
             <li>
                 <a href="../index.html" class="menu__link2">Home</a>
             </li>
             <li>
-                <a href="./quienes somos.html"class="menu__link2">Quienes Somos</a>
+                <a href="./quienes somos.html" class="menu__link2">Quienes Somos</a>
             </li>
             <li>
                 <a href="./maquinariasyrepuestos.html" class="menu__link2">Maquinarias y Repuestos</a>
             </li>
             <li>
-                <a href="./cotizaciones.html"class="menu__link2">Cotizaciones</a>
+                <a href="./cotizaciones.html" class="menu__link2">Cotizaciones</a>
             </li>
             <li>
-                <a href="./contacto.html"class="menu__link2">Contacto</a>
+                <a href="./contacto.html" class="menu__link2">Contacto</a>
             </li>
         </ul>
 
-        <p class="ir_footer"> 
-            <a href="#arriba"class="ir_footer"> Ir arriba </a> 
+        <p class="ir_footer">
+            <a href="#arriba" class="ir_footer"> Ir arriba </a>
         </p>
         <p class="copyright">
             Copyright 2022: Todos los derechos reservados
         </p>
 
     </footer>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
