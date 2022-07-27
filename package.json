@@ -1,0 +1,25 @@
+{
+  "name": "elena",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/estilos.scss assets/css/estilos.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pkg": "^5.8.0"
+  },
+  "devDependencies": {},
+  "description": "<h1> Sucesores de Marcelo Alessi</h1>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/milagrosgarciaalessi/Sucesores-de-MarceloAlessi.git"
+  },
+  "bugs": {
+    "url": "https://github.com/milagrosgarciaalessi/Sucesores-de-MarceloAlessi/issues"
+  },
+  "homepage": "https://github.com/milagrosgarciaalessi/Sucesores-de-MarceloAlessi#readme"
+}
