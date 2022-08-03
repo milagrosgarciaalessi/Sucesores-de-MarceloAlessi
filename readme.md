@@ -4,6 +4,10 @@
 
 <h2> Tecnologias Usadas</h2>
 <ul>
-<li> Html5</li>
-<li> CSS3</li>
-</li>
+
+<li> Html 5 </li>
+<li> CSS 3</li>
+<li> BOOTSTRAP </li>
+<li> GRID </li>
+
+</ul>
