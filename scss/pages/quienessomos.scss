@@ -1,0 +1,62 @@
+/*QUIENES SOMOS*/
+
+.section {
+    &_quienessomos {
+
+        display: flex;
+        border: transparent;
+        margin-top: 70px;
+        margin-bottom: 10px;
+
+    }
+}
+
+.article_quienessomos {
+    display: flex;
+
+
+}
+
+.p_quienessomos {
+    width: 40vw;
+    height: 40vw;
+    color: #8190A5;
+    font-size: 1.5rem;
+    line-height: 1;
+    margin-top: 10px;
+    margin-left: 70px;
+    text-align: justify;
+    font-family: Verdana;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img_quienessomos {
+    width: 30vw;
+    /*ancho foto*/
+    height: 30vw;
+    /*altura foto*/
+    margin-top: 70px;
+    margin-left: 100px;
+    border: transparent;
+    background-image: url(../assets/Negocio.jpg);
+    background-size: cover;
+
+    &:hover {
+        background-image: url(../assets/Representantes.jpg);
+    }
+
+}
+
+.aside {
+    &qs_h2 {
+        width: 10vw;
+        margin-top: 500px;
+        font-size: 1rem;
+        display: flex;
+        margin-left: -7px;
+
+
+    }
+}

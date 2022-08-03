@@ -1,0 +1,61 @@
+/*MAQUINARIAS Y REPUESTOS*/
+
+.titulo_pages {
+    display: flex;
+    color: $colortitulo;
+    font-size: 50px;
+    justify-content: space-around;
+    background-color: none;
+    /* nombre de animacion*/
+    animation-name: efecto;
+    /*veces que se ejecuta*/
+    animation-iteration-count: infinite;
+    /*duracion*/
+    animation-duration: 4s;
+    /*tiempo que tarda hasta que carga*/
+    animation-delay: 1s;
+}
+
+.section_myr {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.div_pages {
+    display: flex;
+    align-items: center;
+    margin: 40px;
+}
+
+picture {
+    & img{
+        display: flex;
+        width: 200px;
+        height: 200px;
+    }
+}
+
+.article_myr {
+    color:$arriba_abajo;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.h2_myr {
+    font-size: 30px;
+    margin-bottom: 40px;
+    color: #424449;
+}
+
+.p_myr {
+    width: 30vw;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    font-size: 20px;
+    margin-left: 20px;
+    text-align: justify;
+}
