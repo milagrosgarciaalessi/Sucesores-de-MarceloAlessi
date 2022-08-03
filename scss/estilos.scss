@@ -9,6 +9,10 @@
 @import "layout/main";
 @import "layout/footer";
 
+//COMPONENTES//
+@import "componentes/carousel";
+@import "componentes/card";
+
 //VIEWS o PAGE//
 @import "pages/home";
 @import "pages/quienessomos";
@@ -23,26 +27,3 @@
 @import "utilidades/mediaquerys";
 
 
-
-
-//MAP=LISTA DE ELEMENTOS//
-
-$redes:( 
-twitter: url("../assets/"),
-facebook:url("../assets/"),
-instagram:url("../assets/"),
-);
-
-//each//
-@each $name, $url in $redes {
-    .btn-#{$name}{
-        background-image: ($url);
-        @if($name == "twitter"){
-            background-color: #6fe0bb;
-            border-radius:50%;
-        } @else{
-            color:aliceblue;
-        }
-    }
-    
-} 

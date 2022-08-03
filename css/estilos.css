@@ -202,6 +202,30 @@ footer {
   grid-template-columns: 2fr 3fr 2fr;
 }
 
+.carousel-inner .carousel__alto {
+  height: 550px;
+}
+
+.img-size, .img-bastidor, .img-horquilla, .img-eje {
+  width: 200px;
+  height: 150px;
+  border: 10px solid rgb(240, 238, 238);
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  width: 200px;
+  height: 400px;
+  background-color: rgb(185, 73, 73);
+}
+
+.flex-card {
+  display: flex;
+  gap: 70px;
+  justify-content: center;
+}
+
 /*HOME/INDEX*/
 body {
   background-color: #f7e7e7;
@@ -485,26 +509,6 @@ picture img {
 
 .f_cont {
   margin: 20px;
-}
-
-.img-size, .img-bastidor, .img-horquilla, .img-eje {
-  width: 200px;
-  height: 150px;
-  border: 10px solid rgb(240, 238, 238);
-}
-
-.card {
-  display: flex;
-  justify-content: center;
-  width: 200px;
-  height: 400px;
-  background-color: rgb(185, 73, 73);
-}
-
-.flex-card {
-  display: flex;
-  gap: 70px;
-  justify-content: center;
 }
 
 .img-eje {
@@ -1253,19 +1257,4 @@ picture img {
     width: 150px;
     font-size: 0.5rem;
   }
-}
-.btn-twitter {
-  background-image: url("../assets/");
-  background-color: #6fe0bb;
-  border-radius: 50%;
-}
-
-.btn-facebook {
-  background-image: url("../assets/");
-  color: aliceblue;
-}
-
-.btn-instagram {
-  background-image: url("../assets/");
-  color: aliceblue;
 }/*# sourceMappingURL=estilos.css.map */
