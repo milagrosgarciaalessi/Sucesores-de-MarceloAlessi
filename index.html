@@ -1,29 +1,22 @@
 <!DOCTYPE html>
 <html lang="es">
-<!--Contenido de la página en Español. Es el lenguaje Puede ser "en"-->
 
 <head>
-    <!--cabeza-->
+
     <meta charset="UTF-8">
-    <!--Para los caracteres en español-->
     <meta http-equiv="X-UA-Compatible content=" IE=edge>
-    <!--Compatibilidad del nav. 
-            donde se consulta la pag. y content es IE Internet Explore = al navegador 
-            estandar a utilizar-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0,">
     <meta name="keywords" content="maquinarias tandil, maquinas agricolas, herramientas agricolas, repuestos agricolas">
     <meta name="description" content="Empresa de Tandil dedicada a la venta de màquinas y repuestos agrìcolas">
-    <!--Viewport
-        nos permite indicar cómo se verá un proyecto web en los dispositivos móviles-->
-    <!--width=device-width establece el ancho de la ventana gráfica al ancho del 
-        dispositivo. initial-scale=1 establece el nivel de zoom inicial cuando el usuario
-         visita la página.-->
     <link rel="shortcut icon" href="./assets/Logo-copia.jpg" type="image/x-icon">
 
-
+    <!--CSS BOOSTRAP ONLY-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <!--CSS PROPIO-->
     <link rel="stylesheet" href="./css/estilos.css">
 
     <title> Suc.de Marcelo Alessi</title>
@@ -31,11 +24,9 @@
 </head>
 
 <body>
-    <header id="arriba" class="grid2 gradientes dropup-center">
-        <!--<picture class="img_logo">
-            <img class="img_logo" src="./assets/Logo.jpg" alt="Logo MA">
 
-        </picture> -->
+    <!--NAVEGACION-->
+    <header id="arriba" class="grid2 gradientes dropup-center">
         <nav class="navbar navbar-expand-lg navbar-expand-md">
             <div class="container">
                 <a class="navbar-brand img_logo">
@@ -72,9 +63,9 @@
         <p class="ir_abajo">
             <a href="#abajo" class="ir_header">Ir abajo</a>
         </p>
-
     </header>
 
+    <!--MAIN-->
     <main class=" border">
         <h1 class="tituloh1">
             Sucesores de Marcelo Alessi</h1>
@@ -97,10 +88,12 @@
             </article>
         </section>
 
+        <!--ASIDE-->
         <aside class=" border aside_img">
 
             <h2 class="aside_h2 animate__animated animate__zoomInDown animate__slower animate__infinite ">Novedades:
             </h2>
+            <!--SECCION CAROUSEL-->
             <div id="carouselExampleIndicators" class="carousel slide m-5" data-bs-ride="true">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
@@ -112,13 +105,16 @@
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="./assets/financiaciontanzi - copia.jpg" class="d-block w-100 carousel__alto" alt="...">
+                        <img src="./assets/financiaciontanzi - copia.jpg" class=" d-block w-100 carousel__alto"
+                            alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="./assets/financiaciontanzi3 - copia.jpg" class="d-block w-100 carousel__alto" alt="...">
+                        <img src="./assets/financiaciontanzi3 - copia.jpg" class="d-block w-100 carousel__alto"
+                            alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="./assets/financiaciontanzi2 - copia.jpg" class="d-block w-100 carousel__alto" alt="...">
+                        <img src="./assets/financiaciontanzi2 - copia.jpg" class=" d-block w-100 carousel__alto"
+                            alt="...">
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
@@ -136,7 +132,7 @@
         </aside>
     </main>
 
-
+    <!--PIE DE PÀGINA-->
     <footer id="abajo" class="grid gradientes1">
 
         <picture class="logo_footer">
@@ -160,15 +156,15 @@
                 <a href="./views/contacto.html" class="menu__link2">Contacto</a>
             </li>
         </ul>
-
         <p class="p_footer">
             <a href="#arriba" class="ir_footer "> Ir arriba </a>
         </p>
         <div class="copyright">
             Copyright 2022:Todos los derechos reservados
         </div>
-
     </footer>
+
+    <!--JAVASCRIPT BUNDLE WITH POPPER-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
         crossorigin="anonymous"></script>

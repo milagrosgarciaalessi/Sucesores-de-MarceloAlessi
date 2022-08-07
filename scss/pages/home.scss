@@ -47,16 +47,11 @@ article {
 
     & img {
         width: 25vw;
-        /*ancho foto*/
         height: 20vw;
-        /*altura foto*/
         margin-right: 50px;
         margin-left: 50px;
-        /*entre foto*/
         margin-bottom: 10px;
-        /*entre la imagen y las letras*/
         margin-top: 30px;
-        /*margen de la foto con el recuadro*/
         border: solid 2px rgb(250, 249, 249);
 
         &:hover {
@@ -76,7 +71,7 @@ article {
 
 .aside {
     & _h2 {
-        margin-top: 40px;
+        margin-top: 50px;
         margin-left: 30px;
         font-size: 2rem;
     }

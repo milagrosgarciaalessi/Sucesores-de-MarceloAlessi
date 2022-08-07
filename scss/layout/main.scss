@@ -3,18 +3,13 @@
 .tituloh1 {
     color: $colortitulo;
     font-size: 4rem;
-    /*tamaño de la letra*/
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
     background-color: none;
-    /* nombre de animacion*/
     animation-name: efecto;
-    /*veces que se ejecuta*/
     animation-iteration-count: infinite;
-    /*duracion*/
     animation-duration: 4s;
-    /*tiempo que tarda hasta que carga*/
     animation-delay: 1s;
 
 }
