@@ -607,11 +607,49 @@
 
     /*QUIENES SOMOS*/
     .bot_quie {
-        margin-left: -144px;
+        margin-left: -241px;
+    }
+
+    .article_quienessomos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 25%;
+        margin-top: -94px;
+        margin-bottom: 33px;
+        height: 155vw;
+
     }
 
     .p_quienessomos {
-        margin-right: 10px;
+        margin-right: 31px;
+        margin-left: 13px;
+        height: 46vw;
+        width: 62vw;
+
+    }
+
+    .asideqs_h2 {
+        margin-left: -279px;
+        margin-top: 611px;
+        width: 38vw;
+
+    }
+
+    .img_quienessomos {
+        width: 51vw;
+        height: 47vw;
+        margin-left: 15px;
+    }
+
+    .img-horquilla {
+        height: 140px;
+        width: 199px;
+    }
+
+    .card {
+
+        height: 353px;
     }
 }
 
@@ -634,22 +672,21 @@
 
 
     /*QUIENES SOMOS*/
-    .ir_footer {
-        margin-left: -42px;
+    .card {
+        margin-top: 38px;
     }
 
     .p_quienessomos {
-        margin-top: 120px;
-        margin-left: 39px;
-    }
-
-    .bot_quie {
-        margin-left: -121px;
+        height: 61vw;
     }
 
     .asideqs_h2 {
-        width: -20vw;
-        margin-top: 604px;
+        margin-left: -256px;
+        width: 43vw;
+    }
+
+    .bot_quie {
+        margin-left: -222px;
     }
 
     /*CONTACTO*/
@@ -683,6 +720,30 @@
 
     .titulo_fcot {
         font-size: 22px;
+    }
+
+    /*QUIENES SOMOS*/
+    .p_quienessomos {
+        margin-top: 92px;
+        margin-left: -9px;
+    }
+
+    .img_quienessomos {
+        margin-left: -18px;
+    }
+
+    .article_quienessomos {
+        margin-left: 137px;
+
+    }
+
+    .asideqs_h2 {
+        margin-left: -242px;
+        width: 52vw;
+    }
+
+    .bot_quie {
+        margin-left: -212px;
     }
 }
 
@@ -761,6 +822,11 @@
         font-size: 15px;
     }
 
+    .div_pages {
+        display: flex;
+        flex-direction: column;
+    }
+
     /*Cotizaciones*/
     .foot_cot {
         margin-top: 193px;
@@ -769,13 +835,24 @@
 
     /*QUIENES SOMOS*/
 
+    .img_quienessomos {
+
+        margin-left: 1px;
+
+    }
+
     .p_quienessomos {
-        margin-top: 250px;
+        margin-top: 119px;
+        margin-bottom: -20px;
+        margin-left: -17px;
     }
 
     .asideqs_h2 {
-        margin-top: 742px;
+
+        margin-top: 656px;
+
     }
+
 
     /*CONTACTO*/
     .table-responsive-md {
@@ -820,7 +897,7 @@
     }
 
     .asideqs_h2 {
-        margin-top: 775px;
+        margin-top: 651px;
     }
 
     /*contacto*/
@@ -862,6 +939,12 @@
         width: 259px;
     }
 
+    /*QUIENES SOMOS*/
+    .p_quienessomos {
+        margin-top: 139px;
+        margin-bottom: -50px;
+    }
+
 }
 
 @media screen and (max-width:346px) {
@@ -892,7 +975,31 @@
         font-size: 13px;
 
     }
+    .titulo_pages {
+        font-size: 25px;
+    }
 
+    /*QUIENES SOMOS*/
+    .p_quienessomos {
+        height: 59vw;
+        margin-top: 168px;
+        margin-bottom: -77px;
+        margin-left: -30px;
+    }
+
+    .img_quienessomos {
+        margin-left: -7px;
+    }
+
+    .asideqs_h2 {
+        margin-top: 679px;
+        margin-left: -225px;
+        width: 60vw;
+    }
+
+    .bot_quie {
+        margin-left: -183px;
+    }
 }
 
 @media screen and (max-width:319px) {
@@ -933,7 +1040,16 @@
         width: 213px;
     }
 
+    /*Quienes somos*/
+    .p_quienessomos {
 
+        width: 67vw;
+    }
+
+    article img {
+        margin-bottom: 21px;
+
+    }
 }
 
 @media screen and (max-width:300px) {
@@ -1009,4 +1125,9 @@
         font-size: 1rem;
 
     }
+    /*QUIENES SOMOS*/
+    .img_quienessomos{
+    margin-top: 42px;
+    width: 51vw;
+}
 }
