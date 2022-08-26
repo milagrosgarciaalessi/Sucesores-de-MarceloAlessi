@@ -224,7 +224,7 @@
     }
 
     .ir_header {
-        width: 4vw;
+        width: 6vw;
         font-size: 0.75rem;
     }
 
@@ -232,7 +232,9 @@
         width: 73vw;
         height: 72vw;
     }
-
+    .carousel-inner .carousel__alto {
+        height: 472px;
+    }
     /*QUIENES SOMOS*/
 
     .p_quienessomos {
@@ -247,6 +249,10 @@
     .bot_quie {
         margin-left: -109px;
     }
+
+   
+
+
 }
 
 @media screen and (max-width :767px) {
@@ -464,6 +470,9 @@
     .copyright {
         font-size: 0.7rem;
         margin-bottom: 4px;
+    }
+    .carousel-inner .carousel__alto {
+        height: 366px;
     }
 
     /*QUIENES SOMOS*/
@@ -767,6 +776,9 @@
 
     .ir_header {
         font-size: 0.6rem;
+
+
+
     }
 
     .h2_index {
@@ -975,6 +987,7 @@
         font-size: 13px;
 
     }
+
     .titulo_pages {
         font-size: 25px;
     }
@@ -1048,6 +1061,11 @@
 
     article img {
         margin-bottom: 21px;
+
+    }
+
+    .img_quienessomos {
+        width: 48vw;
 
     }
 }
@@ -1125,9 +1143,10 @@
         font-size: 1rem;
 
     }
+
     /*QUIENES SOMOS*/
-    .img_quienessomos{
-    margin-top: 42px;
-    width: 51vw;
-}
+    .img_quienessomos {
+        margin-top: 42px;
+        width: 51vw;
+    }
 }
