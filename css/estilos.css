@@ -1287,7 +1287,7 @@ picture img {
     padding-left: 169px;
   }
   .copyright {
-    width: 213px;
+    width: 214px;
   }
   /*Quienes somos*/
   .p_quienessomos {
@@ -1323,7 +1323,7 @@ picture img {
   .sectionindex {
     margin-left: 26px;
     width: 76vw;
-    height: 93vw;
+    height: 102vw;
   }
   .menu__link2 {
     font-size: 0.6rem;
@@ -1345,7 +1345,7 @@ picture img {
   .sectionindex {
     margin-left: 26px;
     width: 76vw;
-    height: 93vw;
+    height: 99vw;
   }
   /*contacto*/
   .table_nombre {
@@ -1358,5 +1358,9 @@ picture img {
   .img_quienessomos {
     margin-top: 42px;
     width: 51vw;
+  }
+  .p_quienessomos {
+    width: 63vw;
+    margin-left: -34px;
   }
 }/*# sourceMappingURL=estilos.css.map */
