@@ -771,18 +771,25 @@
 
     .p_index {
         margin-left: 25px;
-        height: 34vw;
+        height: 36vw;
         width: 26vw;
-        font-size: 0.7rem;
+        font-size: 0.8rem;
 
     }
+
+    .sectionindex {
+        width: 74vw;
+        margin-left: 50px;
+        height: 84vw;
+    }
+
 
     .ir_header {
         font-size: 0.6rem;
     }
 
     .h2_index {
-        font-size: 0.7rem;
+        font-size: 0.9rem;
     }
 
     .menu {
@@ -872,17 +879,30 @@
     }
 }
 
+@media screen and (max-width:377px) {
+    .p_index {
+        height: 41vw;
+        font-size: 0.8rem;
+
+    }
+
+    .sectionindex {
+        width: 79vw;
+        margin-left: 30px;
+        height: 96vw;
+    }
+
+}
+
 @media screen and (max-width:374px) {
 
     .sectionindex {
-        height: 84vw;
+        height: 95vw;
     }
 
     .p_index {
-
-        width: 24vw;
-        line-height: 0.7;
-        height: 25vw;
+        width: 27vw;
+        height: 42vw;
     }
 
     .menu__link2 {
@@ -961,9 +981,16 @@
 
 @media screen and (max-width:346px) {
 
+    .sectionindex {
+        height: 102vw;
+    }
 
     .ir_header {
         margin-left: -57px;
+    }
+
+    .p_index {
+        height: 47vw;
     }
 
     .menu {
@@ -1016,9 +1043,31 @@
 }
 
 @media screen and (max-width:319px) {
+    .sectionindex {
+        height: 119vw;
+    }
+
+    .p_index {
+        width: 30vw;
+        height: 53vw;
+        font-size: 0.8rem;
+        margin-left: 19px;
+
+    }
+
     .menu {
         height: 60vw;
         width: 62vw;
+    }
+
+    article img {
+        width: 30vw;
+        height: 22vw;
+    }
+
+    .h2_index {
+        font-size: 0.85rem;
+        margin-left: 13px;
     }
 
     .tituloh1 {
@@ -1079,13 +1128,13 @@
     }
 
     .p_index {
-        line-height: 1.2;
-        height: 46vw;
-        width: 30vw;
+      
+        height: 61vw;
+      
     }
 
     .h2_index {
-        font-size: 0.7rem;
+        font-size: 0.8rem;
     }
 
     .ir_header {
@@ -1093,14 +1142,14 @@
     }
 
     .img_index {
-        margin-right: 23px;
-        margin-left: 35px;
+        margin-right: 9px;
+        margin-left: 21px;
     }
 
     .sectionindex {
         margin-left: 3vw;
         width: 92vw;
-        height: 109vw;
+        height: 126vw;
     }
 
     .menu__link2 {
