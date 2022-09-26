@@ -571,7 +571,7 @@
     margin-left: 25px;
     height: 34vw;
     width: 26vw;
-    font-size: 0.65rem;
+    font-size: 0.7rem;
   }
   .ir_header {
     font-size: 0.6rem;
@@ -794,8 +794,9 @@
     margin-top: -78px;
   }
   .p_index {
-    line-height: 0.8;
-    height: 38vw;
+    line-height: 1.2;
+    height: 46vw;
+    width: 30vw;
   }
   .h2_index {
     font-size: 0.7rem;
@@ -804,13 +805,13 @@
     width: 16vw;
   }
   .img_index {
-    margin-right: 11px;
-    margin-left: 19px;
+    margin-right: 23px;
+    margin-left: 35px;
   }
   .sectionindex {
-    margin-left: 26px;
-    width: 76vw;
-    height: 102vw;
+    margin-left: 3vw;
+    width: 92vw;
+    height: 109vw;
   }
   .menu__link2 {
     font-size: 0.6rem;
@@ -828,11 +829,6 @@
   }
   .copyright {
     width: 211px;
-  }
-  .sectionindex {
-    margin-left: 26px;
-    width: 76vw;
-    height: 99vw;
   }
   /*contacto*/
   .table_nombre {
