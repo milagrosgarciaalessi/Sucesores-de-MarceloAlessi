@@ -21,7 +21,7 @@ $img-card: (
 $url in $img-card {
     .img-#{$name} {
         @extend .img-size;
-        background-image: #{$url};
+        background-image: #{$img-card};
         background-size: cover;
         background-position: center;
       
