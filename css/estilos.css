@@ -492,13 +492,13 @@ picture img {
 }
 
 .img-eje {
-  background-image: url("/assets/ejeconbasedistribuidor.jpg");
+  background-image: url("../assets/ejeconbasedistribuidor.jpg");
   background-size: cover;
   background-position: center;
 }
 
 .img-horquilla {
-  background-image: url("/assets/horquilla.jpg");
+  background-image: url("../assets/horquilla.jpg");
   background-size: cover;
   background-position: center;
   height: 170px;
@@ -506,7 +506,7 @@ picture img {
 }
 
 .img-bastidor {
-  background-image: url("/assets/batidor.jpg");
+  background-image: url("../assets/batidor.jpg");
   background-size: cover;
   background-position: center;
 }
