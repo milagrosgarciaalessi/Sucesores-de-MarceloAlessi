@@ -2,9 +2,9 @@
 
 //MAP//
 $img-card: (
-    eje: url("/assets/ejeconbasedistribuidor.jpg"),
-    horquilla: url("/assets/horquilla.jpg"),
-    bastidor: url("/assets/batidor.jpg"),
+    eje: url("../assets/ejeconbasedistribuidor.jpg"),
+    horquilla: url("../assets/horquilla.jpg"),
+    bastidor: url("../assets/batidor.jpg"),
 )
 ;
 
@@ -15,13 +15,12 @@ $img-card: (
 
 }
 
-;
 
 @each $name,
 $url in $img-card {
     .img-#{$name} {
         @extend .img-size;
-        background-image: #{$img-card};
+        background-image: #{$url};
         background-size: cover;
         background-position: center;
       

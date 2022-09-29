@@ -2,36 +2,62 @@
 
 header {
     display: flex;
-    border-bottom: 2px solid beige;
-    
+    justify-content: space-around;
+
 
     & nav {
         background-color: none;
         display: flex;
+        justify-content: space-around;
 
 
     }
 }
 
-.a {
-    & img_logo {
-        width: 90px;
-        height: 90px;
-        background-color: transparent;
+.navbar.navbar-expand-lg.bg-light {
+    background-image: linear-gradient($colorprincipal, $colorsecundario, $colorprincipal);
+    color: black;
+}
+
+.bg-light {
+    --bs-bg-opacity: 0;
+}
+
+.navbar {
+    --bs-navbar-color: black;
+    --bs-navbar-disabled-color: black;
+
+    & container-fluid {
         display: flex;
-        margin-left: 30px;
-        margin-top: 10px;
-        grid-area: logonav;
+        justify-content: center;
     }
+
+}
+
+.navbar-nav {
+    --bs-nav-link-padding-y: 0, 1;
+}
+
+.navbar-collapse .navbar>.container-lg,
+.navbar>.container-md,
+.navbar>.container-sm,
+.navbar>.container-xl,
+.navbar>.container-xxl {
+    display: flex;
+    justify-content: center // flex-basis: none;
 }
 
 .gradientes {
     background-image: linear-gradient($colorprincipal, $colorsecundario, $colorprincipal);
 }
 
+// .ir_abajo {
+//     margin-top: 0px;
+//     margin-bottom: 10px;
+// }
 .ir_abajo {
-    margin-top: 0px;
-    margin-bottom: 10px;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .ir_header {
@@ -40,30 +66,25 @@ header {
     font-weight: bold;
     font-family: 'Times New Roman';
     background-color: none;
-    margin-top: 100px;
     margin-right: 10px;
-    width: 13vw;
     display: flex;
     justify-content: right;
-    grid-area: abajo;
 }
 
-.menu {
-    display: flex;
-    list-style: none;
-    justify-content: space-around;
-    align-items: center;
-    font-size: 1rem;
-    width: 60vw;
-    margin-top: 10px;
-    margin-left: 70px;
-    flex-wrap: wrap;
-    grid-area: menu1;
+// .menu {
+//     display: flex;
+//     list-style: none;
+//     justify-content: space-around;
+//     align-items: center;
+//     font-size: 1rem;
+//     width: 60vw;
+//     margin-top: 10px;
+//     margin-left: 70px;
 
-    & __link {
-        text-decoration: none;
-        color: #fdf2f2;
-        text-transform: uppercase;
+//     & __link {
+//         text-decoration: none;
+//         color: #fdf2f2;
+//         text-transform: uppercase;
 
-    }
-}
+//     }
+// }
