@@ -231,7 +231,7 @@
 }
 
 @media screen and (max-width :734px) {
-   
+
     .ir_footer {
         width: 62px;
         margin-left: -14px;
@@ -239,7 +239,7 @@
 }
 
 @media screen and (max-width :690px) {
-   
+
     .p_index {
         height: 36vw;
         line-height: 1.2;
@@ -313,7 +313,7 @@
 }
 
 @media screen and (max-width : 589px) {
-   
+
     .p_index {
         font-size: 0.8rem;
         width: 19vw;
@@ -426,12 +426,12 @@
 
 @media screen and (max-width:499px) {
 
- 
+
     .p_index {
         height: 33vw;
     }
 
-    
+
     /*Maquinas y Repuestos*/
 
     .myr_foot {
@@ -618,25 +618,16 @@
     }
 
 
-    // .ir_header {
-    //     font-size: 0.6rem;
-    // }
-
     .h2_index {
         font-size: 0.9rem;
     }
-
-    // .menu {
-    //     height: 44vw;
-    //     font-size: 0.6rem;
-    // }
 
     .menu2 {
         justify-content: space-evenly;
     }
 
     .menu__link2 {
-        font-size: 0.65rem;
+        font-size: 0.8rem;
     }
 
     .ir_footer {
@@ -739,12 +730,10 @@
         height: 42vw;
     }
 
-    .menu__link2 {
-        font-size: 0.6rem;
-    }
-
     .ir_footer {
-        width: -2vw;
+        width: 17vw;
+        margin-left: -66px;
+        font-size: 0.7rem;
     }
 
     .copyright {
@@ -759,7 +748,7 @@
 
     /*QUIENES SOMOS*/
     .ir_header {
-        width: 11vw;
+        width: 27vw;
     }
 
     .asideqs_h2 {
@@ -772,30 +761,7 @@
     }
 }
 
-
-@media screen and (max-width:363px) {
-
-    // .menu {
-    //     height: 45vw;
-    //     font-size: 0.6rem;
-    // }
-
-    // header {
-    //     height: 48vw;
-    // }
-
-}
-
 @media screen and (max-width:355px) {
-
-    // .menu {
-    //     height: 50vw;
-
-    // }
-
-    // header {
-    //     height: 58vw;
-    // }
 
     .d-block.w-100 {
         height: 326px !important;
@@ -819,24 +785,11 @@
         height: 102vw;
     }
 
-    // .ir_header {
-    //     margin-left: -57px;
-    // }
 
     .p_index {
         height: 47vw;
     }
 
-    // .menu {
-
-    //     height: 55vw;
-
-    // }
-
-    .ir_footer {
-        width: 12vw;
-        margin-left: -42px;
-    }
 
 
     /*maquinarias y repuestos*/
@@ -860,6 +813,9 @@
 
     .img_quienessomos {
         margin-left: -7px;
+        width: 48vw;
+        height: 48vw;
+
     }
 
     .asideqs_h2 {
@@ -886,11 +842,6 @@
 
     }
 
-    // .menu {
-    //     height: 60vw;
-    //     width: 62vw;
-    // }
-
     article img {
         width: 30vw;
         height: 22vw;
@@ -903,16 +854,6 @@
 
     .tituloh1 {
         font-size: 1.4rem;
-    }
-
-    // .ir_abajo {
-    //     margin-left: 98px;
-    //     width: 3vw;
-    // }
-
-    .ir_footer {
-        width: 14vw;
-        margin-left: -52px;
     }
 
     .p_footer {
@@ -952,12 +893,6 @@
 
 @media screen and (max-width:300px) {
 
-    // .menu {
-    //     height: 55vw;
-    //     width: 61vw;
-    //     margin-top: -78px;
-    // }
-
     .p_index {
 
         height: 61vw;
@@ -984,7 +919,7 @@
     }
 
     .menu__link2 {
-        font-size: 0.6rem;
+        font-size: 0.8rem;
     }
 
     .aside_h2 {
@@ -996,14 +931,9 @@
         margin-left: 15px;
     }
 
-
-    .ir_footer {
-        width: 14vw;
-        margin-left: -49px;
-    }
-
     .copyright {
-        width: 211px;
+        width: 186px;
+        font-size: 0.6rem;
     }
 
 
@@ -1021,11 +951,44 @@
     /*QUIENES SOMOS*/
     .img_quienessomos {
         margin-top: 42px;
-        width: 51vw;
+        width: 44vw;
+        margin-left: -31px;
     }
 
     .p_quienessomos {
-        width: 63vw;
-        margin-left: -34px;
+
+        width: 77vw;
+        margin-left: -57px;
+        height: 62vw;
+
     }
+
+    .article_quienessomos {
+        margin-left: 127px;
+    }
+
+}
+@media screen and (max-width:265px){
+
+/*quienes somos*/
+.img_quienessomos {
+    margin-top: 28px;
+    width: 42vw;
+    margin-left: -31px;
+}
+
+.article_quienessomos {
+    margin-left: 142px;
+    height: 227vw;
+}
+.p_quienessomos {
+    width: 63vw;
+    margin-left: -53px;
+    height: 133vw;
+}
+.asideqs_h2 {
+    margin-top: 759px;
+    margin-left: -208px;
+    width: 78vw;
+}
 }
