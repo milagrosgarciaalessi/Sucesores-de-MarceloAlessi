@@ -236,6 +236,12 @@
         width: 62px;
         margin-left: -14px;
     }
+
+    .table-responsive-md {
+        margin-left: 38px;
+        margin-right: 38px;
+        padding-left: 33px;
+    }
 }
 
 @media screen and (max-width :690px) {
@@ -506,6 +512,11 @@
 
         height: 353px;
     }
+
+    /*contacto*/
+    .table-responsive-md {
+        padding-left: 65px;
+    }
 }
 
 @media screen and (max-width:464px) {
@@ -546,7 +557,7 @@
 
     /*CONTACTO*/
     .table-responsive-md {
-        padding-left: 15px;
+        padding-left: 91px;
     }
 
 }
@@ -566,6 +577,10 @@
 
     .titulo_fcot {
         font-size: 22px;
+    }
+
+    .table-responsive-md {
+        padding-left: 125px;
     }
 
     /*QUIENES SOMOS*/
@@ -700,7 +715,7 @@
 
     /*CONTACTO*/
     .table-responsive-md {
-        padding-left: 108px;
+        padding-left: 153px;
     }
 }
 
@@ -757,7 +772,7 @@
 
     /*contacto*/
     .table-responsive-md {
-        padding-left: 141px;
+        padding-left:208px;
     }
 }
 
@@ -776,7 +791,12 @@
         margin-top: 139px;
         margin-bottom: -50px;
     }
+    
+    /*contacto*/
 
+    .table-responsive-md {
+        padding-left: 210px;
+    }
 }
 
 @media screen and (max-width:346px) {
@@ -867,7 +887,7 @@
 
     /*contacto*/
     .table-responsive-md {
-        padding-left: 169px;
+        padding-left: 231px;
     }
 
     .copyright {
@@ -968,27 +988,60 @@
     }
 
 }
-@media screen and (max-width:265px){
 
-/*quienes somos*/
-.img_quienessomos {
-    margin-top: 28px;
-    width: 42vw;
-    margin-left: -31px;
+@media screen and (max-width:280px) {
+
+    .sectionindex {
+        margin-left: 7vw;
+        width: 83vw;
+        height: 133vw;
+    }
+
+    .ir_footer {
+        margin-left: -67px;
+        width: 18vw;
+    }
 }
 
-.article_quienessomos {
-    margin-left: 142px;
-    height: 227vw;
+@media screen and (max-width:270px) {
+    /*INDEX*/
+
+    .p_index {
+        height: 80vw;
+        width: 31vw;
+    }
+
+    .sectionindex {
+        height: 147vw;
+        margin-left: 2vw;
+        width: 89vw;
+
+    }
 }
-.p_quienessomos {
-    width: 63vw;
-    margin-left: -53px;
-    height: 133vw;
-}
-.asideqs_h2 {
-    margin-top: 759px;
-    margin-left: -208px;
-    width: 78vw;
-}
+
+@media screen and (max-width:265px) {
+
+    /*quienes somos*/
+    .img_quienessomos {
+        margin-top: 28px;
+        width: 42vw;
+        margin-left: -31px;
+    }
+
+    .article_quienessomos {
+        margin-left: 142px;
+        height: 227vw;
+    }
+
+    .p_quienessomos {
+        width: 63vw;
+        margin-left: -53px;
+        height: 133vw;
+    }
+
+    .asideqs_h2 {
+        margin-top: 759px;
+        margin-left: -208px;
+        width: 78vw;
+    }
 }

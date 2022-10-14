@@ -169,6 +169,11 @@
     width: 62px;
     margin-left: -14px;
   }
+  .table-responsive-md {
+    margin-left: 38px;
+    margin-right: 38px;
+    padding-left: 33px;
+  }
 }
 @media screen and (max-width: 690px) {
   .p_index {
@@ -370,6 +375,10 @@
   .card {
     height: 353px;
   }
+  /*contacto*/
+  .table-responsive-md {
+    padding-left: 65px;
+  }
 }
 @media screen and (max-width: 464px) {
   .p_footer {
@@ -399,7 +408,7 @@
   }
   /*CONTACTO*/
   .table-responsive-md {
-    padding-left: 15px;
+    padding-left: 91px;
   }
 }
 @media screen and (max-width: 440px) {
@@ -412,6 +421,9 @@
   }
   .titulo_fcot {
     font-size: 22px;
+  }
+  .table-responsive-md {
+    padding-left: 125px;
   }
   /*QUIENES SOMOS*/
   .p_quienessomos {
@@ -509,7 +521,7 @@
   }
   /*CONTACTO*/
   .table-responsive-md {
-    padding-left: 108px;
+    padding-left: 153px;
   }
 }
 @media screen and (max-width: 377px) {
@@ -553,7 +565,7 @@
   }
   /*contacto*/
   .table-responsive-md {
-    padding-left: 141px;
+    padding-left: 208px;
   }
 }
 @media screen and (max-width: 355px) {
@@ -567,6 +579,10 @@
   .p_quienessomos {
     margin-top: 139px;
     margin-bottom: -50px;
+  }
+  /*contacto*/
+  .table-responsive-md {
+    padding-left: 210px;
   }
 }
 @media screen and (max-width: 346px) {
@@ -635,7 +651,7 @@
   }
   /*contacto*/
   .table-responsive-md {
-    padding-left: 169px;
+    padding-left: 231px;
   }
   .copyright {
     width: 214px;
@@ -704,6 +720,29 @@
   }
   .article_quienessomos {
     margin-left: 127px;
+  }
+}
+@media screen and (max-width: 280px) {
+  .sectionindex {
+    margin-left: 7vw;
+    width: 83vw;
+    height: 133vw;
+  }
+  .ir_footer {
+    margin-left: -67px;
+    width: 18vw;
+  }
+}
+@media screen and (max-width: 270px) {
+  /*INDEX*/
+  .p_index {
+    height: 80vw;
+    width: 31vw;
+  }
+  .sectionindex {
+    height: 147vw;
+    margin-left: 2vw;
+    width: 89vw;
   }
 }
 @media screen and (max-width: 265px) {
