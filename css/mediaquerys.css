@@ -1,11 +1,5 @@
 /*MEDIA QUERY*/
 @media screen and (max-width: 1281px) {
-  .sectionindex {
-    height: 58vw;
-  }
-  .p_index {
-    height: 26vw;
-  }
   /*QUIENES SOMOS*/
   .asideqs_h2 {
     width: 2vw;
@@ -13,11 +7,6 @@
   }
 }
 @media screen and (max-width: 1241px) {
-  .p_index {
-    font-size: 1rem;
-    width: 22vw;
-    height: 19vw;
-  }
   .h2_index {
     font-size: 1rem;
   }
@@ -27,11 +16,6 @@
   }
   .tituloh1 {
     font-size: 3rem;
-  }
-  .sectionindex {
-    width: 65vw;
-    justify-content: center;
-    height: 50vw;
   }
   .logo_footer {
     width: 72px;
@@ -66,9 +50,6 @@
   }
 }
 @media screen and (max-width: 1100px) {
-  .sectionindex {
-    height: 57vw;
-  }
   /*QUIENES SOMOS*/
   .p_quienessomos {
     font-size: 1.2rem;
@@ -106,13 +87,6 @@
   }
 }
 @media screen and (max-width: 882px) {
-  .sectionindex {
-    width: 73vw;
-    height: 59vw;
-  }
-  .p_index {
-    height: 23vw;
-  }
   /*QUIENES SOMOS*/
   .asideqs_h2 {
     margin-left: -72px;
@@ -122,13 +96,6 @@
   }
 }
 @media screen and (max-width: 817px) {
-  .p_index {
-    height: 33vw;
-  }
-  .sectionindex {
-    width: 73vw;
-    height: 72vw;
-  }
   .carousel-inner .carousel__alto {
     height: 472px;
   }
@@ -176,10 +143,6 @@
   }
 }
 @media screen and (max-width: 690px) {
-  .p_index {
-    height: 36vw;
-    line-height: 1.2;
-  }
   .ir_footer {
     margin-left: -28px;
   }
@@ -194,9 +157,6 @@
 @media screen and (max-width: 629px) {
   .ir_header {
     width: 1, 1rem;
-  }
-  .sectionindex {
-    height: 78vw;
   }
   /*QUIENES SOMOS*/
   .bot_quie {
@@ -233,20 +193,9 @@
 @media screen and (max-width: 589px) {
   .p_index {
     font-size: 0.8rem;
-    width: 19vw;
-    height: 34vw;
-    line-height: 0.9;
-    margin-left: 43px;
   }
   .tituloh1 {
     font-size: 2rem;
-  }
-  .sectionindex {
-    width: 71vw;
-  }
-  .img_index {
-    margin-right: 12px;
-    margin-left: 28px;
   }
   .aside_h2 {
     font-size: 1rem;
@@ -295,10 +244,6 @@
   }
 }
 @media screen and (max-width: 513px) {
-  .p_index {
-    height: 27vw;
-    margin-left: 41px;
-  }
   .copyright {
     margin-left: 27px;
   }
@@ -314,9 +259,6 @@
   }
 }
 @media screen and (max-width: 499px) {
-  .p_index {
-    height: 33vw;
-  }
   /*Maquinas y Repuestos*/
   .myr_foot {
     margin-top: 196px;
@@ -384,11 +326,6 @@
   .p_footer {
     width: 64px;
   }
-  .p_index {
-    margin-left: 25px;
-    height: 34vw;
-    width: 26vw;
-  }
   .copyright {
     margin-left: 36px;
   }
@@ -450,17 +387,6 @@
   }
   .tituloh1 {
     font-size: 1.5rem;
-  }
-  .p_index {
-    margin-left: 25px;
-    height: 36vw;
-    width: 26vw;
-    font-size: 0.8rem;
-  }
-  .sectionindex {
-    width: 74vw;
-    margin-left: 50px;
-    height: 84vw;
   }
   .h2_index {
     font-size: 0.9rem;
@@ -524,25 +450,7 @@
     padding-left: 153px;
   }
 }
-@media screen and (max-width: 377px) {
-  .p_index {
-    height: 41vw;
-    font-size: 0.8rem;
-  }
-  .sectionindex {
-    width: 79vw;
-    margin-left: 30px;
-    height: 96vw;
-  }
-}
 @media screen and (max-width: 374px) {
-  .sectionindex {
-    height: 95vw;
-  }
-  .p_index {
-    width: 27vw;
-    height: 42vw;
-  }
   .ir_footer {
     width: 17vw;
     margin-left: -66px;
@@ -586,12 +494,6 @@
   }
 }
 @media screen and (max-width: 346px) {
-  .sectionindex {
-    height: 102vw;
-  }
-  .p_index {
-    height: 47vw;
-  }
   /*maquinarias y repuestos*/
   .p_myr {
     width: 34vw;
@@ -622,19 +524,6 @@
   }
 }
 @media screen and (max-width: 319px) {
-  .sectionindex {
-    height: 119vw;
-  }
-  .p_index {
-    width: 30vw;
-    height: 53vw;
-    font-size: 0.8rem;
-    margin-left: 19px;
-  }
-  article img {
-    width: 30vw;
-    height: 22vw;
-  }
   .h2_index {
     font-size: 0.85rem;
     margin-left: 13px;
@@ -644,10 +533,6 @@
   }
   .p_footer {
     width: 50px;
-  }
-  .img_index {
-    margin-right: 2px;
-    margin-left: 17px;
   }
   /*contacto*/
   .table-responsive-md {
@@ -660,31 +545,16 @@
   .p_quienessomos {
     width: 67vw;
   }
-  article img {
-    margin-bottom: 21px;
-  }
   .img_quienessomos {
     width: 48vw;
   }
 }
 @media screen and (max-width: 300px) {
-  .p_index {
-    height: 61vw;
-  }
   .h2_index {
     font-size: 0.8rem;
   }
   .ir_header {
     width: 1, 1rem;
-  }
-  .img_index {
-    margin-right: 9px;
-    margin-left: 21px;
-  }
-  .sectionindex {
-    margin-left: 3vw;
-    width: 92vw;
-    height: 126vw;
   }
   .menu__link2 {
     font-size: 0.8rem;
@@ -723,26 +593,9 @@
   }
 }
 @media screen and (max-width: 280px) {
-  .sectionindex {
-    margin-left: 7vw;
-    width: 83vw;
-    height: 133vw;
-  }
   .ir_footer {
     margin-left: -67px;
     width: 18vw;
-  }
-}
-@media screen and (max-width: 270px) {
-  /*INDEX*/
-  .p_index {
-    height: 80vw;
-    width: 31vw;
-  }
-  .sectionindex {
-    height: 147vw;
-    margin-left: 2vw;
-    width: 89vw;
   }
 }
 @media screen and (max-width: 265px) {
