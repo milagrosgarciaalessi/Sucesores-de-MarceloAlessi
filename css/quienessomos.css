@@ -1,23 +1,22 @@
 /*QUIENES SOMOS*/
 .section_quienessomos {
   display: flex;
+  justify-content: center;
   border: transparent;
-  margin-top: 70px;
   margin-bottom: 10px;
 }
 
 .article_quienessomos {
   display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .p_quienessomos {
-  width: 40vw;
-  height: 40vw;
   color: #8190A5;
   font-size: 1.5rem;
   line-height: 1;
   margin-top: 10px;
-  margin-left: 70px;
   text-align: justify;
   font-family: Verdana;
   display: flex;
@@ -26,22 +25,24 @@
 }
 
 .img_quienessomos {
-  width: 30vw;
-  height: 30vw;
-  margin-top: 70px;
-  margin-left: 100px;
+  display: flex;
   border: transparent;
   background-image: url(../assets/Negocio.jpg);
   background-size: cover;
+  width: 300px;
+  height: 300px;
 }
 .img_quienessomos:hover {
   background-image: url(../assets/Representantes.jpg);
 }
 
+.aside1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .asideqs_h2 {
-  width: 10vw;
-  margin-top: 500px;
   font-size: 1rem;
   display: flex;
-  margin-left: -7px;
 }/*# sourceMappingURL=quienessomos.css.map */

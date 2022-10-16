@@ -5,6 +5,19 @@
     font-size: 2rem;
     margin-top: 20px;
 }
+.table{
+    display: flex;
+    justify-content: center;
+
+}
+.borde1{
+    border: solid 1px black;
+
+}
+
+.justificado{
+    display: flex;
+}
 
 //EXTEND//
 .formulario {
@@ -17,26 +30,6 @@
     @extend .formulario;
     background-image: linear-gradient(#141010, #a15050);
 
-}
-
-.table {
-
-    display: flex;
-    margin-top: 20px;
-    justify-content: center;
-    margin-right: 30px;
-
-    &_nombre {
-        font-size: 1.5rem;
-        border: solid 1px;
-        text-align: center;
-    }
-
-    &_nombre1 {
-        font-size: 1.5rem;
-        border: solid 1px;
-
-    }
 }
 
 .h2_contacto {
